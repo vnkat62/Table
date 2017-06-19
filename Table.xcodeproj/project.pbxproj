@@ -16,6 +16,7 @@
 		3FF5DF121EF7CA1A00BE87DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF5DF101EF7CA1A00BE87DA /* LaunchScreen.storyboard */; };
 		3FF5DF1D1EF7CA1A00BE87DA /* TableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5DF1C1EF7CA1A00BE87DA /* TableTests.m */; };
 		3FF5DF281EF7CA1A00BE87DA /* TableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5DF271EF7CA1A00BE87DA /* TableUITests.m */; };
+		3FF5DF381EF7CD9000BE87DA /* testTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5DF371EF7CD9000BE87DA /* testTable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3FF5DF231EF7CA1A00BE87DA /* TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF5DF271EF7CA1A00BE87DA /* TableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableUITests.m; sourceTree = "<group>"; };
 		3FF5DF291EF7CA1A00BE87DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF5DF361EF7CD9000BE87DA /* testTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testTable.h; sourceTree = "<group>"; };
+		3FF5DF371EF7CD9000BE87DA /* testTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 		3FF5DF351EF7CCDC00BE87DA /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				3FF5DF361EF7CD9000BE87DA /* testTable.h */,
+				3FF5DF371EF7CD9000BE87DA /* testTable.m */,
 			);
 			name = "New Group";
 			path = Table;
@@ -289,6 +294,7 @@
 				3FF5DF041EF7CA1A00BE87DA /* AppDelegate.m in Sources */,
 				3FF5DF0D1EF7CA1A00BE87DA /* Table.xcdatamodeld in Sources */,
 				3FF5DF011EF7CA1A00BE87DA /* main.m in Sources */,
+				3FF5DF381EF7CD9000BE87DA /* testTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
